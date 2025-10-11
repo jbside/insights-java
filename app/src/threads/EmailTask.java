@@ -6,7 +6,7 @@ public class EmailTask implements Runnable {
         for (int i = 1; i <= 5; i++) {
             System.out.println("Sending e-mail " + i);
             try {
-                Thread.sleep(2000);
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
