@@ -6,7 +6,7 @@ public class InsertionSortExecute implements IExecutorBase {
 
     @Override
     public void Execute() {
-        int[] array = new int[10];
+        int[] array = new int[]{2,4,3,10,20,5,9,7};
 
         for(int i = 0; i < array.length; i++) {
             array[i] = (int)(Math.random() * array.length);
